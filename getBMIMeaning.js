@@ -11,7 +11,4 @@ function getBMIMeaning(weight, height) {
   } else (BMI>25) 
     return ("Overweight")      
   }
-console.log(getBMIMeaning(30,1.87))
-console.log(getBMIMeaning(60,1.73))
-console.log(getBMIMeaning(130,1.7))  
 module.exports = getBMIMeaning
